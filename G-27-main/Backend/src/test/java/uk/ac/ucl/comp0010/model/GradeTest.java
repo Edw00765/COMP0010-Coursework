@@ -104,7 +104,7 @@ public class GradeTest {
   @Test
   public void testSetStudent(){
     long newTestStudentId = 2345;
-    String newTestFirstName = "newohn";
+    String newTestFirstName = "newJohn";
     String newTestLastName = "newDoe";
     String newTestUsername = "newJohnnewDoe";
     String newTestEmail = "newjohnnewDoe@gmail.com";
