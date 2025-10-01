@@ -222,7 +222,7 @@ public class Student {
    */
   public float computeAverage() {
     if (this.gradeList.isEmpty()) {
-      return 0f;
+      return 0;
     }
 
     int sum = 0;
@@ -284,4 +284,5 @@ public class Student {
     newRegister.setStudent(this);
     this.studentRegistration.add(newRegister);
   }
+
 }
